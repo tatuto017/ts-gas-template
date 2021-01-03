@@ -25,24 +25,9 @@
     "prettier": "^2.2.1",
     "ts-jest": "^26.4.4",
     "ts-loader": "^8.0.13",
+    "ts-node": "^9.1.1",
     "typescript": "^3.9.7",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.ts$": "ts-jest"
-    },
-    "globals": {
-      "ts-jest": {
-        "tsConfig": "tsconfig.json"
-      }
-    },
-    "testMatch": [
-      "**/tests/**/*.test.ts"
-    ],
-    "moduleNameMapper": {
-      "^@src/(.+)": "<rootDir>/src/$1"
-    }
   }
 }
